@@ -1,14 +1,21 @@
 fn main() {
-    println!("Multiples of 3 and 5 up to 1000: {}", multiples_of_3_and_5());
-    println!("Sum of all even fibonacci numbers up to 4 million: {}", even_fibonacci_numbers(1,2,4000000));
+    // Multiples of two numbers below a limit.
+    let a: i32 = 3;
+    let b: i32 = 5;
+    let limit: i32 = 1000;
+    println!("Multiples of {} and {} up to {}: {}", a, b, limit, multiples_of_two_numbers_below_limit(a, b, limit));
+
+    // Sum of all even fibonacci numbers below a limit.
+    let limit: i64 = 4_000_000;
+    println!("Sum of all even fibonacci numbers up to 4 million: {}", even_fibonacci_numbers(1,2,limit));
 }
 
-fn multiples_of_3_and_5() -> i32 {
+fn multiples_of_two_numbers_below_limit(a: i32, b: i32, limit: i32) -> i32 {
     let mut sum: i32 = 0;
     let mut vector: Vec<i32> = Vec::new();
 
-    for i in 0..1000 {
-        if i % 3 == 0 || i % 5 == 0 {
+    for i in 0..limit {
+        if i % a == 0 || i % b == 0 {
             vector.push(i);
         }
     }
