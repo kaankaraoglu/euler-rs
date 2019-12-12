@@ -7,7 +7,7 @@ fn main() {
 
     // Sum of all even fibonacci numbers below a limit.
     let limit: i64 = 4_000_000;
-    println!("Sum of all even fibonacci numbers up to 4 million: {}", even_fibonacci_numbers(1,2,limit));
+    println!("Sum of all even fibonacci numbers up to {}: {}", limit, even_fibonacci_numbers(1, 2, limit));
 }
 
 fn multiples_of_two_numbers_below_limit(a: i32, b: i32, limit: i32) -> i32 {
