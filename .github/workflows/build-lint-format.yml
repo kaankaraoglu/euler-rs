@@ -12,7 +12,7 @@ jobs:
         uses: ATiltedTree/setup-rust@v1.0.5
         with:
           rust-version: stable
-          components: clippy
+          components: clippy, rustfmtg
 
       - name: Run Clippy
         run: cargo clippy --all-targets --all-features -- -D warnings
