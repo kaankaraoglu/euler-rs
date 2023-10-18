@@ -1,5 +1,5 @@
 name: Build, lint and format
-on: [push]
+on: [ push ]
 
 jobs:
   build-lint-and-format:
@@ -8,8 +8,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Rust
-        uses: actions/setup-rust@v1
+      - name: Setup Rust
+        uses: ATiltedTree/setup-rust@v1.0.5
 
       - name: Run Clippy
         run: cargo clippy --all-targets --all-features -- -D warnings
