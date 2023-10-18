@@ -1,4 +1,4 @@
-# Project Name
+# rust-euler
 
 A Rust project implementing solutions to problems from Project Euler.
 
@@ -16,8 +16,7 @@ A Rust project implementing solutions to problems from Project Euler.
 
 ## Overview
 
-This Rust project provides solutions to problems from Project Euler and is part of a personal journey to learn
-Rust programming.
+This project is part of a personal journey to learn ins and outs of Rust programming.
 
 ## Implemented problems
 
