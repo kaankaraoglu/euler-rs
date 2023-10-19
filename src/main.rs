@@ -1,16 +1,16 @@
 mod problems;
 
 fn main() {
-    // Multiples of two numbers below a limit.
+    // Sum of multiples of two numbers below a limit.
     let a: i32 = 3;
     let b: i32 = 5;
     let limit: i32 = 1000;
     println!(
-        "Multiples of {} and {} up to {} is: {}",
+        "Sum of multiples of {} and {} up to {} is: {}",
         a,
         b,
         limit,
-        problems::multiples_of_two_numbers_below_limit::solve(a, b, limit)
+        problems::sum_of_multiples_of_two_numbers_below_limit::solve(a, b, limit)
     );
 
     // Sum of all even fibonacci numbers below a limit.

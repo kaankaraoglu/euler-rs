@@ -1,3 +1,3 @@
-pub mod multiples_of_two_numbers_below_limit;
+pub mod sum_of_multiples_of_two_numbers_below_limit;
 pub mod sum_of_all_even_fibonacci_numbers_below_limit;
 pub mod largest_prime_factors_of_a_number;
