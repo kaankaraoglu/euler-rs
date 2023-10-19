@@ -22,6 +22,7 @@ This project is part of a personal journey to learn ins and outs of Rust program
 
 - Finding multiples of two given numbers below a limit.
 - Calculating the sum of Fibonacci numbers below a certain limit.
+- Finding the largest prime factor of a number.
 
 ## Requirements
 
