@@ -6,6 +6,10 @@ authors = ["Kaan Karaoglu"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+thread_local = "1.1.7" # Fix for CWE-362g
+regex = "1.10.2" # Fix for CWE-400 and CWE-1333
 
 [dev-dependencies]
 rustfmt = "0.10.0"
+thread_local = "1.1.7" # Fix for CWE-362
+regex = "1.10.2" # Fix for CWE-400 and CWE-1333
