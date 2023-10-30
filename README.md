@@ -1,10 +1,15 @@
-# rust-euler
+<div align="center">
 
-A Rust project implementing solutions to problems from Project Euler.
+# 🦀 rust-euler
 
-## Table of Contents
+**A Rust project implementing solutions to problems from Project Euler with the goal of learning ins and outs of the langugage**
 
-- [Overview](#overview)
+[![Build, lint and format](https://github.com/kaankaraoglu/rust-euler/actions/workflows/build-lint-format.yml/badge.svg)](https://github.com/kaankaraoglu/rust-euler/actions/workflows/build-lint-format.yml)
+
+</div>
+
+## ToC
+
 - [Features](#features)
 - [Requirements](#requirements)
 - [Usage](#usage)
@@ -14,11 +19,7 @@ A Rust project implementing solutions to problems from Project Euler.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
-
-This project is part of a personal journey to learn ins and outs of Rust programming.
-
-## Implemented problems
+## Solved problems (so far!)
 
 - Finding multiples of two given numbers below a limit.
 - Calculating the sum of Fibonacci numbers below a certain limit.
