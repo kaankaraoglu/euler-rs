@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🦀 rust-euler
+# 🦀 euler-rs
 
 **A Rust project implementing solutions to problems from Project Euler with the goal of learning ins and outs of the langugage**
 
-[![Build, lint and format](https://github.com/kaankaraoglu/rust-euler/actions/workflows/build-lint-format.yml/badge.svg)](https://github.com/kaankaraoglu/rust-euler/actions/workflows/build-lint-format.yml)
+[![Build, lint and format](https://github.com/kaankaraoglu/euler-rs/actions/workflows/build-lint-format.yml/badge.svg)](https://github.com/kaankaraoglu/rust-euler/actions/workflows/build-lint-format.yml)
 
 </div>
 
